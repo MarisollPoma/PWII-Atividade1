@@ -1,14 +1,20 @@
-let numero = 50 ;
-let sobra = numero % 2 ; 
+let n: number = 3
 
 
 
-if( sobra == 0 ) {
-console.log ("PAR")
+
+let funcao  =  function (numero: number ) :   boolean {
+
+
+if( n%2 == 0 ) {
+    //console.log("PAR")
+return true 
 
 } else {
-    console.log ("IMPAR")
+        //console.log("IMPAR")
+   return false 
 }
  
+}
 
-
+console.log(funcao(n))
